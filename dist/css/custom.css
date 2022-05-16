@@ -1,0 +1,15 @@
+
+
+.site_flash_msg .alert.alert-danger, .site_flash_msg .alert.alert-success {
+  opacity: 1;
+  text-align: left;
+  margin-left: 258px !important;
+  margin: 5px;
+}
+
+@media(max-width: 991px){
+    .site_flash_msg .alert.alert-danger, .site_flash_msg .alert.alert-success{
+        margin-left: 8px !important;
+    }
+}
+        
