@@ -1,8 +1,8 @@
 <?php
 class Database{
 	
-	// private $host  = '127.0.0.1';
-	private $host  = '165.22.208.86';
+	private $host  = '127.0.0.1';
+	// private $host  = '165.22.208.86';
     // private $user  = 'root';
     private $user  = 'pmauser';
     // private $password   = "";
