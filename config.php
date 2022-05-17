@@ -6,7 +6,7 @@ class Database{
     // private $user  = 'root';
     private $user  = 'pmauser';
     // private $password   = "";
-    private $password   = " Nmsgames@123";
+    private $password   = "Nmsgames@123";
     private $database  = "tambola"; 
     
     public function getConnection(){		
