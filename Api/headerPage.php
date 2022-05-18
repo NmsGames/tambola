@@ -6,7 +6,8 @@ include_once '../../Class/Events.php';
 include_once '../../Class/Tickets.php'; 
 include_once '../../Class/Users.php'; 
 include_once '../../Class/Categories.php'; 
-include_once '../../Class/SubCategories.php'; 
+include_once '../../Class/SubCategories.php';
+include_once '../../Class/UserClaim.php';  
  $method = $_SERVER['REQUEST_METHOD'];
 
  function pathUrl($dir = __DIR__){ 

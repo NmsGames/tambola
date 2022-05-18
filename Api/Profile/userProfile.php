@@ -7,7 +7,7 @@ if($method =="POST"){
     $user_id   = isset($data->user_id)?$data->user_id:null;
     $device_id = isset($data->device_id)?$data->device_id:null;
     $itemRecords= array();
-    if(!empty($user_id) || !empty($device_id)){
+    if(!empty($user_id) && !empty($device_id)){
         $result = $user->checkUser($user_id); 
         if($result->num_rows > 0){  
             $users      = $result->fetch_assoc(); 
