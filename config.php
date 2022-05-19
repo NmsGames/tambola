@@ -2,8 +2,8 @@
 class Database{
 	
 	private $host  = '127.0.0.1';
-    private $user  = 'root';
-    private $password   = "";
+    private $user  = 'pmauser';
+    private $password   = "Nmsgames@123";
     private $database  = "tambola"; 
     
     public function getConnection(){		
